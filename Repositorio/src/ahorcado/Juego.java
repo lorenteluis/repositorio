@@ -1,5 +1,6 @@
 package ahorcado;
-/* Crear un juego del ahorcado, en el que un primer usuario introduzca la palabra a adivinar, 
+/* Crear un juego del ahorcado, en el que un primer usuario introduzca
+ la palabra a adivinar, 
 se muestre esta programa oculta con guiones (-----) y el programa acepte las letras que introduzca
 el segundo usuario, cambiando los guiones por letras correctas cada vez que acierte (por ejemplo, a---a-t-).
 La partida terminará cuando se acierte la palabra por completo o el usuario agote sus 8 intentos. */
@@ -28,6 +29,8 @@ public class Juego {
 			//palabra2.Replace(letraPalabra[i], "-");
 		}
 
+		
+		
 		System.out.print(palabra2);
 		do {
 			System.out.print("\n\nIntroduzca una letra");
